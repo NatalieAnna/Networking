@@ -1,1 +1,9 @@
 # Cables
+Copper (ie Cat6) or fibre.
+
+Copper:
+- The sending device communicates binary data across these wires by changing the voltage between two ranges. The system at the receiving end interprets these voltage changes as binary 1s and 0s.
+- Crosstalk is when an electrical pulse on one wire is detected on another wire, so the receiving end can't understand the data ie network error. Cat6 is more reliable but shorter max distance.
+
+Fibre:
+- Transport pulses of light (0/1). Useful when there is lots of EMR interference from outside sources.
