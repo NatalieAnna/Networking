@@ -10,7 +10,9 @@ No. | Layer Name | Protocol | Protocol Data Unit | Addressing
 2 | Data Link | Ethernet, Wi-Fi | Frames | MAC Address
 1 | Physical | 10 Base T, 802.11 | Bits | na
 
-Transport layer: sorts out which client and server programs are supposed to get that data.
+Application layer: these protocols allow you to send email, browse the web, etc.
+
+Transport layer: sorts out which client and server programs are supposed to get that data ie ensures that the data gets to the right applications (email, browser, etc) running on those nodes. TCP = Transmission Control Protocol (has mechanisms to ensure that data is reliably delivered). UDP = User Datagram Protocol (does not have said reliability mechanismsm).
 
 Network layer: allows a collection of networks/nodes to communicate with each other through routers. Ie, the internet is a collection of networks connected together through routers. IP = internet protocol. Client application initiates a request for data. Server software answers the request across the network.
 
