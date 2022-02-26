@@ -27,3 +27,9 @@ Network Switch:
 - Inspects IP data to detemine where to send things.
 - Forwards traffic originating from the LAN to the Internet Service Provider where it is then managed by more sophisticated routers (core ISP routers).
 - Core ISP routers share data with each other cia the Border Gateway Protocol (BGP), which lets them learn about the most optimal paths to forward traffic.
+
+# Servers and Clients
+- Devices/nodes are both servers or clients at different points in time. Programs and applications can be servers/clients to each other too.
+ie an email server is also a client of a DNS server, but primary reason for existing is to serve data to clients. So term used will reflect primary purpose of that device.
+- A server provides data to something requesting that data (client).
+- A client receives that data.
