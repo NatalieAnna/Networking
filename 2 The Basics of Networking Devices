@@ -1,4 +1,5 @@
 # Cables
+
 Copper (ie Cat6) or fibre.
 
 Copper:
@@ -9,4 +10,20 @@ Fibre:
 - Transport pulses of light (0/1). Useful when there is lots of EMR interference from outside sources.
 
 # Hubs & Switches
-https://youtu.be/QKfk7YFILws?t=987
+- The primary devices used to connect computers on a single network (Local Area Network).
+
+Hub: 
+- A physical layer device (first layer).
+- Allows for connections from many computers at once (to each other). Each system must determine if the incoming data was meant for them, or to ignore it - causes noise on network and collision domain.
+- Collision domain: a network segment where only one device can communicate at a time. If multiple systems try sending data at the same time, the electrical impulses sent across the cable can interfere with each other. System have to wait out a quiet period before trying to send out data again, which slows down network communications (more retransmissions, lower throughput.) Hubs are historical artefacts.
+
+Network Switch:
+- A data link (second layer) device.
+- A switch can inspect the contents of ethernet protocol data being sent around the network to detemine which system that data is intended for, and then sends that data to that one system.
+
+# Routers
+- A device that knows how to forward data between indepenedent networks.
+- A network (third layer) device.
+- Inspects IP data to detemine where to send things.
+- Forwards traffic originating from the LAN to the Internet Service Provider where it is then managed by more sophisticated routers (core ISP routers).
+- Core ISP routers share data with each other cia the Border Gateway Protocol (BGP), which lets them learn about the most optimal paths to forward traffic.
