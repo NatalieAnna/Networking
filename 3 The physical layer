@@ -1,0 +1,6 @@
+# Moving bits across the wire
+- The physical layer moves bits (1s and 0s; smallest representations of data that a computer can understand) from one end of the link to the next, across many different networks between you and the server you're interacting with. Comprises of devices and a means of transmitting bits across computer networks.
+- 1/0s are sent across network cables (ie copper cables, which carry a constant electrical charge) through a process called modulation. 
+Modulation: a way of varying the voltage of a charge moving across a cable. Wrt computer aka line coding. It allows devices on either end of link to understand that an electrical charge in a certain state is a 1 or 0 via encoders/decoders. Digital data (101010) is encoded at the sender end into a digital signal, and decoded back into digital data at the receiver end.
+
+# Twister pair cabling and duplexing
